@@ -1,0 +1,170 @@
+html {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+header {
+    margin-top: 39px;
+} 
+
+img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.page-nav {
+    padding: 40px 0;
+    vertical-align: middle;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.site-navigation {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+    text-align: right;
+    float: right;
+}
+
+.site-navigation li:not(:last-child) {
+    margin-right: 35px;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: rgb(26, 188, 156);
+}
+
+.site-navigation a {
+    color: black;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.site-navigation li {
+    display: inline-block;
+}
+
+-----------------/*footer*/--------------------
+
+
+.futures-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 255px;
+}
+
+.produkt-img {
+    background: #e9f0fd;
+    display: block;
+    width:247px;
+    height:282px;
+}
+
+
+
+.product-title {
+    margin-top: 113px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 48px;
+    text-transform: uppercase;
+    color: #515151;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.product-title::after {
+    content: '';
+    width: 160px;
+    height: 8px;
+    margin: 0 auto;
+    background: #1abc9c;
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 93px;
+}
+
+.futures-list:hover .block-produkt_price {
+    background: #1abc9c;
+}
+.block-produkt_price:hover  {
+    background: #1abc9c;
+}
+.block-produkt_price h4:hover .block-produkt_price {
+    background: #1abc9c;
+}
+
+.block-produkt_price {
+    width: 100%;
+    height: 41px;
+    background: #323232;
+    margin: 0;
+}
+
+.futures-list {
+    display: block;
+    background: #e9f0fd;
+    float: left;
+    text-decoration: none;
+    margin-bottom: 30px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.site-navigation li:not(:last-child) {
+    margin-right: 35px;
+}
+
+.block-produkt_price h4 {
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 900;
+    height: auto;
+    overflow: hidden;
+}
+
+.price-text {
+    float: left;
+    padding: 11px 14px;
+    text-decoration: none;
+}
+.price {
+    float: right;
+    padding: 11px;
+    background: rgba(255, 255, 255, .4);
+}
+
