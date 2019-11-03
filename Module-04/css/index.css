@@ -71,11 +71,11 @@ img {
 .site-navigation li {
     display: inline-block;
 }
--------------------------------------
+/*----------main----------*/
+
 .features {
     display: block;
     width: 255px;
-    background: #e9f0fd;
     float: left;
     margin-right: 30px;
     text-decoration: none;
@@ -149,7 +149,6 @@ img {
     width: 255px;
     background: #e9f0fd;
     float: left;
-    margin-right: 30px;
     text-decoration: none;
     margin-bottom: 30px;
     height: auto;
@@ -179,7 +178,7 @@ img {
     background: rgba(255, 255, 255, .4);
 }
 
----------------------------------------
+/*--------------footer----------------*/
 
 .news_up::after {
     content: '';
