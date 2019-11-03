@@ -2,6 +2,12 @@ html {
     box-sizing: border-box;
 }
 
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -72,8 +78,31 @@ img {
     display: inline-block;
 }
 
------------------/*footer*/--------------------
+/*---------------main---------------*/
 
+.slider {
+    width: 1600px;
+    height: 600px;
+    background-image: url(../img/upper.png)
+}
+
+
+/*-----------------footer--------------*/
+
+.features {
+    display: block;
+    width: 255px;
+    float: left;
+    margin-right: 30px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    height: auto;
+    overflow: hidden;
+}
+
+.features:nth-child(4) {
+    margin-right: 0;
+}
 
 .futures-list {
     list-style: none;
@@ -137,7 +166,6 @@ img {
     height: auto;
     overflow: hidden;
     text-align: center;
-    margin-right: 30px;
 }
 
 .site-navigation li:not(:last-child) {
