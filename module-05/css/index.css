@@ -83,9 +83,86 @@ img {
 .slider {
     width: 1600px;
     height: 600px;
-    background-image: url(../img/upper.png)
+    margin-bottom: 100px;
+    text-align: center;
 }
 
+.max-width{
+    position: relative;
+}
+.max-width img{
+    display: block;
+    margin:0 auto;
+    filter: brightness(0.522)
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.max-width {
+    width: 1100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.max-width h2{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 82px;
+}
+
+.max-width button{
+    border: 0;
+    background-color: #4ec6ab;
+    opacity: 65%;
+    width: 105px;
+    height: 105px;
+}
+
+.max-width button:hover{
+    opacity:  1;
+}
+
+.write {
+    text-align: left;
+    width: 770px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+.max-width .left{
+    position: absolute;
+    left: 0;
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.max-width .right{
+    position: absolute;
+    right: 0;
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.max-width h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 0;
+}
 
 /*-----------------footer--------------*/
 
@@ -143,9 +220,11 @@ img {
 .futures-list:hover .block-produkt_price {
     background: #1abc9c;
 }
+
 .block-produkt_price:hover  {
     background: #1abc9c;
 }
+
 .block-produkt_price h4:hover .block-produkt_price {
     background: #1abc9c;
 }
