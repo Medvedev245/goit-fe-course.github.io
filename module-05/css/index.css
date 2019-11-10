@@ -106,7 +106,7 @@ img {
     width: 1100px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 50%;;
     transform:translate(-50%,-50%);
 }
 
@@ -114,7 +114,7 @@ img {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
-    font-weight: 900;
+    font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
     line-height: 82px;
@@ -122,7 +122,7 @@ img {
 
 .max-width button{
     border: 0;
-    background-color: #4ec6ab;
+    background-color: rgba(26, 188, 156, 0.8);
     opacity: 65%;
     width: 105px;
     height: 105px;
@@ -139,6 +139,11 @@ img {
     top: 50%;
     left: 50%;
     transform:translate(-50%,-50%);
+}
+
+.write h3 {
+    float: left;
+    padding-left: 13px;
 }
 
 .max-width .left{
@@ -163,6 +168,66 @@ img {
     text-transform: uppercase;
     margin: 0;
 }
+
+.buttons{
+    width: 200px;
+    
+}
+.overlay button{
+    float: left;
+    font-size: 30px;
+    background: none;
+    color: #ffffff;
+    border: 1px solid;
+    margin-right: 9px;
+    margin-bottom: 7px;
+}
+.overlay button span{
+    padding: 9px;
+    background: none;
+}
+.overlay{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-234%,158%);
+    opacity: 0;
+    width: 235px;
+    height: 262px;
+    background-color: rgba(0, 0, 0, .549);
+}
+.buttons{
+    position: inherit;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.overlay  .buttons .cart{
+    border: none;
+    width: 186px;
+    padding: 9px;
+    background-color: #323232;
+}
+.cart .add-to-cart{
+    padding: 0;
+    width: 62%;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+.cart .pe-7s-cart{
+    padding: 0;
+    float: left;
+}
+.overlay:hover{
+    opacity: 1;
+}
+
+
 
 /*-----------------footer--------------*/
 
