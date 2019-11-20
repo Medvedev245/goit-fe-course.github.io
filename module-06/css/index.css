@@ -4,6 +4,12 @@
     clear: both;
   }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
 * {
     margin: 0;
     padding: 0; 
@@ -32,6 +38,7 @@
 .container a:hover,
 .container a:focus {
     color: rgba(243, 129, 129, 1);
+    text-decoration: underline;
 }
 
 .flex-header {
@@ -39,6 +46,7 @@
     justify-content: space-between;
     align-items: flex-end;
     height: 65px;
+    padding-bottom: 130px;
 }
 
 .container {
@@ -165,9 +173,38 @@
 }
 
 .photo-boy {
-    height: 470px;
-    width: 380px;
+    position: relative;
+}
 
+.overlay:hover {
+    opacity: 90%;
+    transform: translate(-11px, -11px);
+    box-shadow: 11px 11px 0 #aee0d3;
+    transition: all 200ms linear;
+}
+
+.overlay {
+    position: absolute;
+    background-image: linear-gradient(to top, #f5e28d 0%, #d97f7f 100%);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay a {
+    height: 56px;
+    width: 56px;
+    background-color: #fce38a;
+    display: inline-block;
+    border: 1px solid;
+    border-color: transparent;
+    transition: all 200ms linear;
+}
 }
 
 .name {
@@ -178,7 +215,7 @@
 .laster {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 .footer-left h5 {
@@ -186,4 +223,42 @@
     padding-bottom: 26px;
 }
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    align-items: center;
+    border-top: 1px solid;
+    border-color: #cccccc;
+}
 
+.subscribing {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.subscribing input[type="search"] {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-right: transparent;
+    text-transform: capitalize;
+    font-family: "Roboto", sans-serif;
+    color: #cccccc;
+    padding-left: 10px;
+    font-style: italic;
+    width: 229px;
+    height: 38px;
+}
+
+.subscribing input[type="submit"] {
+    background-color: #aee0d3;
+    border: 1px solid #aee0d3;
+    color: #ffffff;
+    text-transform: uppercase;
+    font: 14px "Montserrat", sans-serif;
+    text-align: center;
+    width: 149px;
+    height: 38px;
+    font-weight: 700;
+    cursor: pointer;
+}
