@@ -134,6 +134,7 @@ img {
 .item2 h4 {
     font-size: 10px;
     opacity: 0.6;
+    padding-bottom: 23px;
 }
 
 .items img {
@@ -170,10 +171,12 @@ img {
     flex-direction: column;
     width: 380px;
     text-align: center;
+    padding-bottom: 88px;
 }
 
 .photo-boy {
     position: relative;
+    padding-bottom: 31px;
 }
 
 .overlay:hover {
@@ -205,11 +208,27 @@ img {
     border-color: transparent;
     transition: all 200ms linear;
 }
+
+.overlay a:hover {
+    color: #d97f7f;
+    background-color: aqua;
 }
 
 .name {
     padding-top: 32px;
     padding-bottom: 84px;
+}
+
+.first {
+    opacity: 0.6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.second {
+    opacity: 0.3;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
 }
 
 .laster {
@@ -221,6 +240,8 @@ img {
 .footer-left h5 {
     padding-top: 26px;
     padding-bottom: 26px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.6;
 }
 
 .footer {
@@ -230,6 +251,10 @@ img {
     align-items: center;
     border-top: 1px solid;
     border-color: #cccccc;
+}
+
+.red {
+    color: red;
 }
 
 .subscribing {
