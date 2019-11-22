@@ -45,7 +45,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 65px;
+    padding-top: 65px;
     padding-bottom: 130px;
 }
 
@@ -59,7 +59,7 @@ img {
 
 .flex-header-one {
     width: 92px;
-    height: 23px;
+
 }
 
 .flex-header ul{
@@ -111,8 +111,6 @@ img {
 
 .items {
     display: flex;
-    width: 340px;
-    height: 67px;
     margin-bottom: 100px;
 }
 
@@ -121,7 +119,6 @@ img {
 }
 
 .item2 {
-    height: 79px;
     width: 262px;
 }
 
@@ -138,7 +135,7 @@ img {
 }
 
 .items img {
-    height: 33px;
+
     width: 33px;
 }
 
@@ -176,7 +173,6 @@ img {
 
 .photo-boy {
     position: relative;
-    padding-bottom: 31px;
 }
 
 .overlay:hover {
@@ -200,8 +196,6 @@ img {
 }
 
 .overlay a {
-    height: 56px;
-    width: 56px;
     background-color: #fce38a;
     display: inline-block;
     border: 1px solid;
@@ -247,7 +241,6 @@ img {
 .footer {
     display: flex;
     justify-content: space-between;
-    height: 62px;
     align-items: center;
     border-top: 1px solid;
     border-color: #cccccc;
@@ -260,6 +253,7 @@ img {
 .subscribing {
     display: flex;
     justify-content: flex-end;
+    padding-top: 12px;
 }
 
 .subscribing input[type="search"] {
