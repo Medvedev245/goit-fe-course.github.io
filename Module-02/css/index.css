@@ -1,8 +1,7 @@
-
-
 .main {
     width: 900px;
 }
+
 .navigator {
     height: 192px;
 }
@@ -31,7 +30,7 @@
 
 .site-navigation a:hover,
 .site-navigation a:focus {
-    color: rgb(3, 0, 0);
+    color: #25f59e;
 }
 
 .site-navigation {
