@@ -18,6 +18,7 @@
 
 .site-navigation li {
     display: inline-block;
+    font-family: 'Playfair Display', serif;
 }
 
 .site-navigation a {
@@ -68,6 +69,7 @@
 .lifestyle {
     opacity: 0.3;
     font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .text, h2 {
