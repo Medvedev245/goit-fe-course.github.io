@@ -85,6 +85,7 @@ img {
     height: 600px;
     margin-bottom: 100px;
     text-align: center;
+    background-image: url(img/upper.png)
 }
 
 .max-width{
@@ -188,21 +189,19 @@ img {
 }
 .overlay{
     position: absolute;
-    top:45%;
-    left: 50%;
-    transform: translate(-50%,50%);
     opacity: 0;
     width: 235px;
     height: 262px;
     background-color: rgba(0, 0, 0, .549);
 }
 .buttons{
+    display: inline-block;
     position: inherit;
     top:45%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.overlay  .buttons .cart{
+.overlay .buttons .cart{
     border: none;
     width: 186px;
     padding: 9px;
@@ -247,6 +246,7 @@ img {
 }
 
 .futures-list {
+    position: absolute;
     list-style: none;
     margin: 0;
     padding: 0;
