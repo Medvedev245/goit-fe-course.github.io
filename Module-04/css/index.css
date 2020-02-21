@@ -15,7 +15,6 @@ header {
 img {
     display: block;
     min-width: 100%;
-    height: auto;
 }
 
 *, 
@@ -43,13 +42,12 @@ img {
 
 .site-navigation {
     vertical-align: middle;
-    display: inline-block;
     margin: 0;
     padding: 0;
     font-size: 13px;
     list-style: none;
-    width: 977px;
     text-align: right;
+    float: right;
 }
 
 .site-navigation li:not(:last-child) {
@@ -80,21 +78,11 @@ img {
     margin-right: 30px;
     text-decoration: none;
     margin-bottom: 30px;
-    height: auto;
-    overflow: hidden;
-}
-.futures-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 255px;
 }
 
 .produkt-img {
     background: #e9f0fd;
     display: block;
-    width:255px;
-    height:282px;
 }
 
 .futures-list-item {
@@ -138,8 +126,6 @@ img {
 }
 
 .block-produkt_price {
-    width: 100%;
-    height: 41px;
     background: #323232;
     margin: 0;
 }
@@ -151,8 +137,6 @@ img {
     float: left;
     text-decoration: none;
     margin-bottom: 30px;
-    height: auto;
-    overflow: hidden;
     text-align: center;
 }
 
@@ -174,7 +158,7 @@ img {
 }
 .price {
     float: right;
-    padding: 11px;
+    padding: 12px;
     background: rgba(255, 255, 255, .4);
 }
 
