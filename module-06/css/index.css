@@ -30,15 +30,17 @@ img {
 
 .container a {
     text-decoration: none;
-    color: rgba(149, 225, 211, 0.7);
-    font-family: 'Open Sans', sans-serif;
+    color: rgb(149, 225, 211);
+    font-family: 'Montserrat';
     font-size: 10px;
+    text-transform: uppercase;
 }
 
 .container a:hover,
 .container a:focus {
     color: rgba(243, 129, 129, 1);
-    text-decoration: underline;
+    text-decoration: none;
+    
 }
 
 .flex-header {
@@ -86,7 +88,9 @@ img {
 .text2 {
     text-align: center;
     padding: 5px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .text3 {
@@ -120,18 +124,21 @@ img {
 
 .item2 {
     width: 262px;
+    text-transform: uppercase
 }
 
 .item2 h5 {
     padding-bottom: 22px;
     font-size: 10px;
     opacity: 0.5;
+    font-family: 'Roboto';
 }
 
 .item2 h4 {
     font-size: 10px;
     opacity: 0.6;
     padding-bottom: 23px;
+    font-family: 'Montserrat';
 }
 
 .items img {
@@ -151,8 +158,9 @@ img {
     padding-bottom: 22px;
     font-size: 10px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     opacity: 0.5;
+    font-weight: 400;
 }
 
 .last {
@@ -176,7 +184,7 @@ img {
 }
 
 .overlay:hover {
-    opacity: 90%;
+    opacity: 0.9;
     transform: translate(-11px, -11px);
     box-shadow: 11px 11px 0 #aee0d3;
     transition: all 200ms linear;
@@ -196,7 +204,7 @@ img {
 }
 
 .overlay a {
-    background-color: #fce38a;
+    background-color: rgb(252, 227, 138);
     display: inline-block;
     border: 1px solid;
     border-color: transparent;
@@ -206,6 +214,7 @@ img {
 .overlay a:hover {
     color: #d97f7f;
     background-color: aqua;
+    opacity: 1;
 }
 
 .name {
@@ -215,12 +224,14 @@ img {
 
 .first {
     opacity: 0.6;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-transform: uppercase;
 }
 
 .second {
     opacity: 0.3;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-weight: 300;
     font-style: italic;
 }
@@ -229,6 +240,8 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-top: 1px solid;
+    border-color: #cccccc;
 }
 
 .footer-left h5 {
@@ -242,8 +255,6 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid;
-    border-color: #cccccc;
 }
 
 .red {
