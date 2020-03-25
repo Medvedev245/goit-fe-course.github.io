@@ -82,7 +82,6 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-bottom: 100px;
 }
 
 .text2 {
@@ -91,6 +90,17 @@ img {
     font-family: 'Montserrat';
     font-weight: 700;
     text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.text2::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    width: 60px;
+    background: #d98080;
+    margin-top: 40px;
 }
 
 .text3 {
@@ -98,6 +108,7 @@ img {
     padding: 5px;
     font-family: 'Kaushan Script', cursive;
     font-style: italic;
+    margin-bottom: 19px;
 }
 
 /*----------Section_2----------*/
@@ -124,14 +135,14 @@ img {
 
 .item2 {
     width: 262px;
-    text-transform: uppercase
 }
 
 .item2 h5 {
     padding-bottom: 22px;
     font-size: 10px;
-    opacity: 0.5;
-    font-family: 'Roboto';
+    opacity: 0.3;
+    font-family: 'Roboto', sans-serif;
+    line-height: 13px;
 }
 
 .item2 h4 {
@@ -139,6 +150,7 @@ img {
     opacity: 0.6;
     padding-bottom: 23px;
     font-family: 'Montserrat';
+    text-transform: uppercase;
 }
 
 .items img {

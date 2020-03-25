@@ -86,6 +86,7 @@ img {
     text-align: center;
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 80px;
 }
 
 .text3 {
@@ -184,6 +185,7 @@ img {
 .flex-from {
     display: flex;
     justify-content: center;
+    width: 455px;
 }
 
 .decorate-form {
@@ -192,8 +194,8 @@ img {
     width: 230px;
     height: 40px;
     padding-left: 20px;
+    padding-right: 300px;
     margin-bottom: 28px;
-    height: 50px;
     width: 457px;
     text-transform: uppercase;
     border: 1px solid #cccccc;
