@@ -27,16 +27,23 @@ img {
     margin: 0 auto;
 }
 
+@font-face {
+    font-family: "droid-serif";
+    url("./fonts/droid-serif.italic.ttf")
+    font-style: italic;
+    font-weight: normal;
+}
+
 .container a {
     text-decoration: none;
     color: black;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 15px;
 }
 
 .container a:hover,
 .container a:focus {
-    color: rgba(243, 129, 129, 1);
+    color: rgba(255, 234, 161, 1);
     text-decoration: underline;
 }
 
@@ -85,15 +92,17 @@ img {
 .text2 {
     text-align: center;
     padding: 5px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "droid-serif";
+    font-style: italic;
+    opacity: 0.3;
     padding-bottom: 80px;
 }
 
 .text3 {
     text-align: center;
     padding: 5px;
-    font-family: 'Kaushan Script', cursive;
-    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .col {
@@ -103,6 +112,12 @@ img {
     flex-direction: column;
     align-items: center;
     padding-bottom: 110px;
+}
+
+.col h4 {
+    font-family: 'Roboto Slab', serif;
+    opacity: 0.4;
+    text-align: center;
 }
 
 .form1 {
@@ -124,13 +139,15 @@ img {
 
 .glava1 {
     padding-bottom: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
 
 .text4 {
     text-align: center;
     padding: 5px;
-    font-family: 'Kaushan Script', cursive;
-    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     padding-top: 110px;
     color: white;
 }
@@ -138,7 +155,7 @@ img {
 .text5 {
     text-align: center;
     padding: 5px;
-    font-family: 'Kaushan Script', cursive;
+    font-family: "droid-serif";
     font-style: italic;
     color: white;
     opacity: 0.3;
@@ -192,7 +209,7 @@ img {
     font: 14px 'Montserrat', sans-serif;
     color: #777777;
     width: 230px;
-    height: 40px;
+    height: 51px;
     padding-left: 20px;
     padding-right: 300px;
     margin-bottom: 28px;
