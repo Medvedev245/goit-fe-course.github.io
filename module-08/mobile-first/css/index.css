@@ -74,7 +74,6 @@
     border: 0px;
     height: 40px;
     border-radius: 50px;
-    margin-bottom: 139px;
 }
 
 main {
@@ -143,7 +142,8 @@ main {
 }
 
 .but_next {
-    width: 280px;
+    max-width: 280px;
+    width: 100%;
     height: 40px;
     border: 2px solid;
     color: rgb(255, 78, 80);
@@ -151,4 +151,9 @@ main {
     background-color: white;
     border-color: rgb(255, 78, 80);
     margin-bottom: 30px;
+    display: inline-block;
+}
+
+.foot {
+    text-align: center;
 }
