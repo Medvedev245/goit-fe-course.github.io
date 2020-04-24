@@ -1,0 +1,241 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.page-nav {
+    padding: 40px 0;
+    vertical-align: middle;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.site-navigation {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+    text-align: right;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.site-navigation li:not(:last-child) {
+    margin-right: 33px;
+}
+
+
+.site-navigation li {
+    display: inline-block;
+}
+
+.site-navigation a {
+    color: black;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: rgb(26, 188, 156);
+}
+
+/*Block Section-1*/
+
+.picture {
+    width: 1600px;
+    height: 600px;
+    position: relative;
+}
+
+.max-width {
+    width: 1110px;
+    height: 125px;
+    position: absolute;
+    top: 215px;
+    left: 245px;
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    width: 105px;
+    height: 103px;
+    opacity: 0.5;
+    background-color: rgb(26, 188, 156);
+    border: 0;
+    margin-top: 7px
+}
+
+.left span {
+    font-size: 100px;
+    color: white;
+}
+
+.right span {
+    font-size: 100px;
+    color: white;
+}
+
+.right {
+    float: right;
+    width: 105px;
+    height: 103px;
+    opacity: 0.5;
+    background-color: rgb(26, 188, 156);
+    border: 0;
+    top: 0px;
+    margin-top: 7px;
+}
+
+.tested {
+    display: inline-block;
+    width: 750px;
+    margin-right: 70px;
+    margin-left: 80px;
+}
+
+.tested h2 {
+    font-size: 55px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding-bottom: 35px;
+}
+
+.tested h3 {
+    font-size: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    filter: brightness(0.522)
+}
+
+/*Block Section 2*/
+
+.cards {
+    height: 680px;
+    width: 1600px;
+    background:rgb(233, 240, 253);
+    text-align: center;
+
+}
+
+.text {
+    height: 254px; 
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: rgb(81, 81, 81)
+}
+
+.text::after {
+    content: '';
+    width: 160px;
+    height: 8px;
+    margin: 0 auto;
+    background: #1abc9c;
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 93px;
+}
+
+.card {
+    width: 255px;
+    height: 323px;
+    position: relative;
+    display: inline-block;
+}
+
+.buttons {
+    position: absolute;
+    width: 235px;
+    height: 262px;
+    color: #000;
+    top: 10px;
+    left: 10px;
+}
+
+
+
+.buttons button{
+    float: left;
+    font-size: 30px;
+    background: none;
+    color: #ffffff;
+    border: 1px solid;
+    margin-right: 9px;
+    margin-bottom: 7px;
+}
+
+.buttons button span{
+    padding: 9px;
+    background: none;
+}
+.buttons {
+    display: inline-block;
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 235px;
+    height: 262px;
+    background-color: rgba(0, 0, 0, .549);
+    overflow: hidden;
+}
+
+.buttons a:hover {
+}
+
+.name {
+    display: inline-block;
+    float: left;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 255px;
+    background: rgb(50, 50, 50)
+}
+
+.container-text {
+    height: 40px;
+    width: 200px;
+    display: inline-block;
+}
+
+.prise {
+    display: inline-block;
+    float: right;
+    height: 40px;
+    width: 55px;
+    background: rgb(140, 140, 140);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}
+
+.text-price {
+    padding-top: 10px;
+}

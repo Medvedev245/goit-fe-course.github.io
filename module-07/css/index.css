@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+::before
+::after {
+    box-sizing: inherit;
+}
+
+.all-conteiner {
+    max-width: 940px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: "droid-serif";
+    url("./fonts/droid-serif.italic.ttf")
+    font-style: italic;
+    font-weight: normal;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.container a:hover,
+.container a:focus {
+    color: rgba(255, 234, 161, 1);
+    text-decoration: underline;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+.container {
+    list-style-type: none;
+}
+
+.flex-header-two li a:hover:after {
+    background-color: #d98080;
+}
+
+.flex-header-one {
+    width: 92px;
+
+}
+
+.flex-header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    color: #aee0d3;
+    font-size: 14px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 490px;
+}
+
+.flex-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.text2 {
+    text-align: center;
+    padding: 5px;
+    font-family: "droid-serif";
+    font-style: italic;
+    opacity: 0.3;
+    padding-bottom: 80px;
+}
+
+.text3 {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.col {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 110px;
+}
+
+.col h4 {
+    font-family: 'Roboto Slab', serif;
+    opacity: 0.4;
+    text-align: center;
+}
+
+.form1 {
+    display: flex;
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+    box-shadow: 0 0 0 3px orange;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.midle {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row
+}
+
+.glava1 {
+    padding-bottom: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.text4 {
+    text-align: center;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 110px;
+    color: white;
+}
+
+.text5 {
+    text-align: center;
+    padding: 5px;
+    font-family: "droid-serif";
+    font-style: italic;
+    color: white;
+    opacity: 0.3;
+    margin-bottom: 77px;
+}
+
+.flex-footer {
+    background-image: url(../img/Background.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-footer {
+    background-image: url(../img/banner-footer.png);
+    height: 100%;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: #222222;
+    background-size: cover;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.forms1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms3 {
+    margin-bottom: 26px;
+    width:455px;
+    height: 56px;
+}
+
+.forms3:nth-child(3) {
+    margin-bottom: 0px;
+}
+
+.flex-from {
+    display: flex;
+    justify-content: space-between;
+    width: 940px;
+}
+
+.decorate-form {
+    font: 14px 'Montserrat', sans-serif;
+    color: #777777;
+    width: 230px;
+    height: 51px;
+    padding-left: 20px;
+    padding-right: 300px;
+    margin-bottom: 28px;
+    width: 457px;
+    text-transform: uppercase;
+    border: 1px solid #cccccc;
+    border-radius: 3px;  
+    resize: none;
+}
+
+input[type="text"]::placeholder { 
+    color: #bbbbbb; 
+} 
+
+.decor-textarea {
+    height: 209px;
+    padding-top: 19px;
+}
+
+.flex-btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 114px;
+}
+
+.form-btn {
+    font: 18px 'Montserrat Bold', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 25px 47px;
+    text-align: center; 
+    background-color: #fed136;
+    border: 1px solid #fed136;
+    color: #fff;
+    border-radius: 3px; 
+    cursor: pointer;
+    outline: none;
+    justify-content: center;
+}

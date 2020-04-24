@@ -1,0 +1,272 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.head {
+    text-align: center;
+    height: 540px;
+    background-image: url(../img/one.png);
+}
+
+.sign a {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+}
+
+.nav_text {
+    display: none;
+}
+
+.flex-sign {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sign {
+    list-style-type: none;
+    display: inline-block;
+    margin: 16px;
+}
+
+.urlau {
+    padding-top: 118px;
+    padding-bottom: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.wrapper h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 22px;
+}
+
+.find_partner {
+    color: white;
+    opacity: 0.7;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.but {
+    max-width: 282px;
+    width: 100%;
+    color: white;
+    background-color: rgb(255, 78, 80);
+    border: 0px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+main {
+    text-align: center;
+}
+
+.second-list {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 30px;
+    padding-top: 70px;
+}
+
+.list {
+    position: relative;
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+}
+
+.inner {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.fas {
+    font-size: 15px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+}
+
+.fab {
+    font-size: 15px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+}
+
+.name {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+}
+
+.main-list {
+    width: 230px;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; 
+    opacity: 0.7;
+}
+
+.but_next {
+    max-width: 280px;
+    width: 100%;
+    height: 40px;
+    border: 2px solid;
+    color: rgb(255, 78, 80);
+    border-radius: 50px;
+    background-color: white;
+    border-color: rgb(255, 78, 80);
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.foot {
+    text-align: center;
+}
+
+
+
+/*___MEDIA___*/
+
+@media ( min-width: 768px) {
+    .wrapper {
+        max-width: 760px;
+    }
+ 
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 492px;
+        justify-content: space-between;
+    }
+
+    .main-list {
+        width: 236px;
+    }
+
+    .urlau {
+        display: none;
+    }
+
+    .sign {
+        width: 55px;
+    }
+
+    .head {
+        height: 700px;
+        background: black;
+        background-image: url(../img/two.png);
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        padding-top: 36px;
+        justify-content: flex-start;
+    }
+
+    .nav_text {
+        display: block;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        color: white;
+    }
+
+    .head h1 {
+        padding-top: 160px;
+    }
+
+    .but {
+        max-width: 226px;
+    }
+
+    .main-list {
+        width: 230px;
+        display: inline-block;
+        padding-bottom: 58px;
+    }
+
+    .head h1 {
+        padding-top: 160px;
+        font-size: 39px;
+        width: 492px;
+    }
+}
+
+@media ( min-width: 1440px) {
+    .wrapper {
+        max-width: 1440px;
+    }
+
+    .head {
+        height: 700px;
+        background: black;
+        background-image: url(../img/threpng.png);
+    }
+
+    .container {
+        max-width: 1440px;
+    }
+
+    .head h1 {
+        padding-top: 160px;
+        font-size: 39px;
+        width: 500px;
+    }
+
+    .find_partner {
+        padding-bottom:40px;
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .but {
+        max-width: 224px;
+    }
+
+    .main-list {
+        padding-bottom: 40px;
+    }
+
+    .foot {
+        padding-bottom: 74px;
+    }
+}
